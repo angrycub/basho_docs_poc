@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://academy-staging.basho.com/ -->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>
+            Basho Documentation
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="https://academy-staging.basho.com/favicon.ico">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.cyphon.css">
+
+        <script src="js/analytics.js"></script><script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>@-webkit-keyframes popodewrbctftitxnngrqcwlkqswhlyekkykxr {50% {-webkit-transform:scale(1.2);}100% {-webkit-transform:scale(1);}}@keyframes popodewrbctftitxnngrqcwlkqswhlyekkykxr {50% {-webkit-transform:scale(1.2);transform:scale(1.2);}100% {-webkit-transform:scale(1);transform:scale(1);}}#odewrbctftitxnngrqcwlkqswhlyekkykxr{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;border:solid 2px #fff !important;box-sizing:content-box !important;color:#fff !important;display:block !important;height:auto !important;margin:0 !important;opacity:0.9 !important;padding:7px 10px !important;position:fixed !important;visibility:visible !important;width:auto !important;z-index:2147483647 !important;-webkit-border-radius:5px !important;-webkit-box-shadow:0px 0px 20px #000 !important;-webkit-box-sizing:content-box !important;}.odewrbctftitxnngrqcwlkqswhlyekkykxr-blocked{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;color:#AAA !important;display:inline !important;text-decoration:line-through !important;}#odewrbctftitxnngrqcwlkqswhlyekkykxr br{display:block !important;padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;}#odewrbctftitxnngrqcwlkqswhlyekkykxr span{background:transparent !important;padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;}#odewrbctftitxnngrqcwlkqswhlyekkykxr div{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;border:0 !important;margin:0 !important;padding:0 !important;width:auto !important;letter-spacing:normal !important;font:13px Arial,Helvetica !important;text-align:left !important;text-shadow:none !important;text-transform:none !important;word-spacing:normal !important;}#odewrbctftitxnngrqcwlkqswhlyekkykxr a{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;font-weight:normal !important;background:none !important;text-decoration:underline !important;color:#fff !important;}a#odewrbctftitxnngrqcwlkqswhlyekkykxr-gear{padding:0;margin:0;font:13px Arial,Helvetica;text-transform:none;font-size: 100%;vertical-align:baseline;line-height:normal;color:#fff;position:static;text-decoration:none !important;position:absolute !important;display:none !important;font-size:20px !important;width:20px !important;height:20px !important;line-height:20px !important;text-align:center !important;background-color:rgba(255,255,255,.8) !important;background-image:url(chrome-extension://mlomiejdfkolichcflejclcbmpeaniij/data/images/gear.svg) !important;background-size:16px 16px !important;background-position:center center !important;background-repeat:no-repeat !important;text-decoration:none !important;}a#odewrbctftitxnngrqcwlkqswhlyekkykxr-gear:hover{-webkit-animation-name:popodewrbctftitxnngrqcwlkqswhlyekkykxr !important;animation-name:popodewrbctftitxnngrqcwlkqswhlyekkykxr !important;-webkit-animation-duration:0.3s !important;animation-duration:0.3s !important;}#odewrbctftitxnngrqcwlkqswhlyekkykxr:hover #odewrbctftitxnngrqcwlkqswhlyekkykxr-gear{text-decoration:none !important;display:inline-block !important;}@media print{#odewrbctftitxnngrqcwlkqswhlyekkykxr{display:none !important;}}</style></head>
+    <body class="home">
+        
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://academy-staging.basho.com/"><img height=42 src="img/basho_docs_logo.png" alt="Basho Academy"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="http://docs.basho.com/community/">Join the <em>Community</em>!</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to the Basho Docs</h1>
+        <p>Choose a product below</p>
+      </div>
+    </div>
+    <div id="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+                <a href="http://docs.basho.com/riak/kv/2.1.4/">
+                    <div class="course">
+                        <h3>Riak KV</h3>
+                        <p>Highly available, Operationally Simple, Distributed Database</p>
+                        <p><span class="glyphicon glyphicon-chevron-right"></span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="http://docs.basho.com/riak/ts/1.3.0/">
+                    <div class="course">
+                        <h3>Riak TS</h3>
+                        <p>Distributes NoSQL Database Optimized for IoT/Time Series</p>
+                        <p><span class="glyphicon glyphicon-chevron-right"></span></p>
+                    </div>
+                </a>
+           </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+                <a href="http://docs.basho.com/riak/cs/2.1.1/">
+                    <div class="course">
+                        <h3>Riak CS</h3>
+                        <p>Fault-Tolerant, S3-Compatible, Distributed Storage</p>
+                        <p><span class="glyphicon glyphicon-chevron-right"></span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="http://docs.basho.com/dataplatform/1.0.0/">
+                    <div class="course">
+                        <h3>Basho Data Platform</h3>
+                        <p>Distributed NoSQL Database Optimized for IoT/Time Series</p>
+                        <p><span class="glyphicon glyphicon-chevron-right"></span></p>
+                    </div>
+                </a>
+           </div>
+          </div>
+        </div> 
+    </div>
+    
+<!--          
+    <div id="highlights">
+        <div class="container">
+            <div class="col-sm-12 col-md-8 highlight-left">
+                <h1>lorem ipsum dolor sit amet elit</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum varius augue, eget pellentesque ipsum imperdiet eu. Morbi sit amet est id diam faucibus maximus. Morbi tincidunt, purus sit amet ultricies efficitur, lacus purus placerat tellus.</p>
+
+                <p>Aliquam facilisis condimentum est, quis convallis erat. Sed at pretium ipsum. Pellentesque a placerat nulla, quis accumsan velit. Nunc porta ligula risus, eu tempor est volutpat in. Cras dui velit, scelerisque nec ligula quis, euismod commodo metus. Nulla laoreet ante eget risus condimentum, quis tempus orci condimentum. In ut auctor diam.</p>
+                <p class="btn-margin"><a href="https://academy-staging.basho.com/#" class="orange-btn">Lorem Ipsum</a></p>
+            </div>
+            <div class="col-sm-12 col-md-4 highlight-right">
+                <h3>highlights lorem</h3>
+                <ul>
+                    <li>Praesent mollis ex non lobortis lorem fringilla lorem ipsum dolor sit elit</li>
+                    <li>Ut suscipit ex eget arcu interdum elit</li>
+                    <li>Vivamus dignissim enim nec auctor</li>
+                    <li>Sed a augue a leo hendrerit tristique nun porta ligula risus eu tempor est</li>
+                    <li>Praesent mollis ex non lobortis ut diam fringilla lorem ipsum dolor sit</li>
+                    <li>Lorem ipsum dolor sit amet lorem</li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+-->
+      <footer class="footer">
+        <div class="container">
+            <div class="col-sm-12 col-md-4 foot-left">
+              <p>© 2016 <a href="http://basho.com/">Basho Technologies, Inc.</a></p>
+            </div>
+            <div class="col-sm-12 col-md-4 foot-center">
+                <p><a href="http://basho.com/terms-conditions/">Terms &amp; Conditions</a> | <a href="http://basho.com/privacy-policy/">Privacy Policy</a></p>
+            </div> 
+            <div class="col-sm-12 col-md-4 social">
+              <a href="https://www.facebook.com/riakbasho" class="facebook" target="_blank"></a>
+              <a href="https://twitter.com/basho" class="twitter" target="_blank"></a>
+              <a href="https://www.youtube.com/user/BashoTechnologies" class="youtube" target="_blank"></a>
+              <a href="https://www.linkedin.com/company/basho-technologies-inc" class="linkedin" target="_blank"></a>
+              <a href="https://github.com/basho" class="github" target="_blank"></a>
+            </div>
+        </div>
+      </footer>
+
+        <script src="js/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    
+
+</body></html>

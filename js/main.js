@@ -1,0 +1,1 @@
+$(".active a").addClass('collapsed');
